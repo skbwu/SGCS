@@ -1,2 +1,2 @@
 # Exploring Robustness & Explanation Agreement in Deep-Learning Models Via Gradient-based Saliency Methods and Cosine Similarity
-This repo accompanies the paper "Exploring Robustness & Explanation Agreement in Deep-Learning Models Via Gradient-based Saliency Methods and Cosine Similarity" written by Skyler Wu '24 for Professors Xiao-li Meng and Adel Daoud's STAT 288: Deep Statistics: AI and Earth Observations for Sustainable Development.
+This repo accompanies the paper "Do Models Think Similarly? Exploring Robustness & Explanation Agreement in Deep-Learning Models" written by Skyler Wu '24 for Professors Xiao-li Meng and Adel Daoud's STAT 288: Deep Statistics: AI and Earth Observations for Sustainable Development.
