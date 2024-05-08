@@ -5,6 +5,11 @@ import torch.nn as nn
 from torch.autograd import Variable
 from torch.nn import functional as F
 
+'''
+This SmoothGrad implementation is gratefully borrowed from the below repository:
+https://github.com/pkmr06/pytorch-smoothgrad/blob/master/lib/gradients.py
+'''
+
 class VanillaGrad(object):
 
     def __init__(self, pretrained_model, cuda=False):
