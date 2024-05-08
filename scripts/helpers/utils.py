@@ -91,6 +91,7 @@ class MNIST_MLP(nn.Module):
 3 modules: 5130 parameters.
 4 modules: 2750 parameters.
 '''
+# Inspiration: https://github.com/brohrer/scs-gallery/blob/main/fashion_90_2764.py
 class MNIST_CNN(nn.Module):
     def __init__(self, num_modules):
         super().__init__()
@@ -168,6 +169,7 @@ class MNIST_CNN(nn.Module):
     
     
 # 25214 parameters, 80% on CIFAR-10.
+# Inspiration: https://github.com/brohrer/scs-gallery/blob/main/cifar10_80_25214.py
 class CIFAR_CNN25K(nn.Module):
     def __init__(self):
         
@@ -217,6 +219,7 @@ class CIFAR_CNN25K(nn.Module):
     
     
 # 47650 parameters, 80% accuracy on CIFAR-10
+# Inspiration: https://github.com/brohrer/scs-gallery/blob/main/cifar10_80_47643.py
 class CIFAR_CNN47K(nn.Module):
     def __init__(self):
                 
@@ -263,6 +266,7 @@ class CIFAR_CNN47K(nn.Module):
     
     
 # 104778 parameters, 80% accuracy on CIFAR-10
+# Inpiration: https://github.com/brohrer/sharpened-cosine-similarity/blob/main/pytorch/demo_cifar10.py
 class CIFAR_CNN100K(nn.Module):
     def __init__(self):
         super().__init__()
