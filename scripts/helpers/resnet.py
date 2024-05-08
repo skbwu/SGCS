@@ -1,4 +1,8 @@
 '''
+The ResNet model classes are gratefully borrowed from Idelbayev's pytorch_resnet_cifar10 repository linked below:
+https://github.com/akamaster/pytorch_resnet_cifar10/blob/master/resnet.py
+
+#########
 Properly implemented ResNet-s for CIFAR10 as described in paper [1].
 
 The implementation and structure of this file is hugely influenced by [2]
